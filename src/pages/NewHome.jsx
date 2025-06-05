@@ -575,7 +575,7 @@ const cards = [
           <div className="sec-title mb-55">
             <div className="sec-title mb-45">
               <h2 className="mb-40 wow skewIn">
-                Why Us <br />
+                Why Us<br />
                 <span> Trusted Guidance for Your Future</span>
               </h2>
               <p>
