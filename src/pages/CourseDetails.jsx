@@ -92,6 +92,7 @@ const CourseDetails = () => {
             </h2>
             <ul className="breadcrumb__list clearfix">
               <li className="breadcrumb-item"><a href="/">Home</a></li>
+              <li className="breadcrumb-item"><a href="/Courses">Courses</a></li>
               <li className="breadcrumb-item">{course_name}</li>
             </ul>
           </div>

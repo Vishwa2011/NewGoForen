@@ -88,11 +88,21 @@ export default function Immigrationprvisa() {
         }}></div>
         <div className="container" style={{ position: 'relative', zIndex: 2 }}>
           <div className="breadcrumb__content text-white py-5">
-            <h2>{visa.visa_type}</h2>
-            <ul className="breadcrumb__list d-flex flex-wrap gap-2 mt-3">
+            {/* <h2>{visa.visa_type}</h2> */}
+             <h2 className="breadcrumb__title" style={{ color: '#fff' }}>{visa.visa_type}</h2>
+            {/* <ul className="breadcrumb__list d-flex flex-wrap gap-2 mt-3">
               <li><a href="/" className="text-white text-decoration-underline">Home</a></li>
               <li>Visa Details</li>
               <li>{visa.visa_type}</li>
+            </ul> */}
+            <ul className="breadcrumb__list clearfix">
+              <li className="breadcrumb-item">
+                <a href="/">Home</a>
+              </li>
+              <li className="breadcrumb-item">
+                <a href="Visa-services">Visa Services</a>
+              </li>
+              <li className="breadcrumb-item">{visa.visa_type}</li>
             </ul>
           </div>
         </div>
