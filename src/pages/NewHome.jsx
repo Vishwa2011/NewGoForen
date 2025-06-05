@@ -569,7 +569,7 @@ const cards = [
 
         {/* CARD SECTION END */}
 
-      {/* <!-- about start --> */}
+      {/* <!-- about start --> */}   
       <section className="about pos-rel pt-120 pb-130">
         <div className="container">
           <div className="sec-title mb-55">
