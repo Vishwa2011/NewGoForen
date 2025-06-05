@@ -13,7 +13,7 @@ import GRE from "./pages/GRE";
 import PTE from "./pages/PTE";
 import SAT from "./pages/SAT";
 import Studentvisa from "./pages/Student-visa";
-import Gallary from "./pages/Gallary";   
+import Gallary from "./pages/Gallary";     
 import Videos from "./pages/Videos";
 import Contact from "./pages/Contact";
 
